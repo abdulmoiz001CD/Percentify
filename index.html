@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percentify Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    
+<div class="background">
+
+<div class="container">
+
+    <div class="box">
+        
+<form onsubmit="processEl(event)" class="formInput" id="formInput">
+
+<input required type="number" name="math" id="Math" min="0" max="100" placeholder="Math">
+<input required type="number" name="science" id="Science" min="0" max="100" placeholder="Science">
+<input required type="number" name="urdu" id="Urdu" min="0" max="100" placeholder="Urdu">
+<input required type="number" name="islamiyat" id="Islamiyat" min="0" max="50" placeholder="Islamiyat">
+
+<button type="submit" id="btn">Calculate</button>
+
+</form>
+
+<p class="result" id="result"></p>
+
+    </div>
+
+
+    <div class="content">
+    <h2>Calculate Your</h2>
+    <h1>Percentage</h1>
+    </div>
+    
+
+</div>    
+
+</div>
+</body>
+</html>
